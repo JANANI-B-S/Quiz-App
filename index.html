@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>IT Quiz</title>
+</head>
+<body>
+  <div id="quiz-container">
+    <button onclick="startQuiz()">Start Quiz</button>
+    <div id="questions" style="display: none;">
+      <h1 id="question"></h1>
+      <div id="options-container" class="options"></div>
+      <button onclick="nextQuestion()" id="nextBtn">Next</button>
+      <button onclick="submitQuiz()" id="submitBtn" style="display: none;">Submit Quiz</button>
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
